@@ -53,4 +53,4 @@ client.on('guildMemberAdd', member => {
   });
 
 // Token du BOT içi:
-client.login('NzE5ODcxNTY2MDk5MjUxMjIx.XuC35A.aMXMNbrFqND4Yy7qo7DE2TeeXdU');
+client.login(process.env.TOKEN);
