@@ -44,13 +44,5 @@ client.on('message', message => {
     }
   });   
 
-// Création de l'event n°5
-client.on('guildMemberAdd', member => {
-    member.send(`*Bienvenue sur le 𝑺𝒆𝒓𝒗𝒆𝒖𝒓 𝑨𝒎𝒊𝒔*   **${member.user.username}** *!* https://gifsdomi.files.wordpress.com/2013/09/gif-bienvenue-267.gif?w=636&h=318`);
-    client.channels.cache.get('718193211318992957').send(`*Bienvenue sur le 𝑺𝒆𝒓𝒗𝒆𝒖𝒓 𝑨𝒎𝒊𝒔*   **${member.user.username}** *!* https://gifsdomi.files.wordpress.com/2013/09/gif-bienvenue-267.gif?w=636&h=318`);
-    member.roles.add('718191967275581512');
-
-  });
-
 // Token du BOT içi:
 client.login(process.env.TOKEN);
